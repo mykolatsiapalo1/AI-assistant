@@ -10,8 +10,8 @@ import EventRepeatIcon from "@mui/icons-material/EventRepeat";
 
 const Sidebar = () => {
   return (
-    <div className=" max-h-[100%] h-full bg-white rounded-lg w-60 flex flex-col gap-2  p-3 ">
-      <div className="flex flex-col gap-3">
+    <div className="w-full h-20  bg-white rounded-lg  flex flex-col gap-2 p-3 md:max-h-[100%] md:h-full md:w-20">
+      <div className="flex flex-row md:flex-col gap-3 overflow-x-auto">
         <IconButton>
           <HomeIcon />
         </IconButton>

@@ -1,4 +1,4 @@
-import DashboardFilters from "@/components/dashboard/DashboardFilters";
+import DashboardFilters from "@/app/components/dashboard/DashboardFilters";
 import React from "react";
 
 const Dashboard = () => {

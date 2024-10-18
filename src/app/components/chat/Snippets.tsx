@@ -1,4 +1,4 @@
-import { snippets } from "@/modules/data";
+import { snippets } from "@/app/modules/data";
 import React, { Dispatch, SetStateAction } from "react";
 
 const Snippets = ({

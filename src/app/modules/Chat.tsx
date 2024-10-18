@@ -1,13 +1,13 @@
 "use client";
 
-import ChatInput from "@/components/chat/ChatInput";
-import Snippets from "@/components/chat/Snippets";
+import ChatInput from "@/app/components/chat/ChatInput";
+import Snippets from "@/app/components/chat/Snippets";
 import React, { useState } from "react";
 import { mockResponses } from "./data";
 import { getCurrentTime } from "@/lib/utils";
-import Graph from "@/components/chat/templates/Graph";
-import Table from "@/components/chat/templates/Table";
-import Commit from "@/components/chat/templates/Commit";
+import Graph from "@/app/components/chat/templates/Graph";
+import Table from "@/app/components/chat/templates/Table";
+import Commit from "@/app/components/chat/templates/Commit";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import { ResponseType } from "@/lib/types";
 

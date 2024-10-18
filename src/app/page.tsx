@@ -1,5 +1,5 @@
 "use client";
-import Chat from "@/modules/Chat";
+import Chat from "@/app/modules/Chat";
 
 export default function ChatPage() {
   return (

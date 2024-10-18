@@ -16,6 +16,7 @@ const Chat = () => {
     { content: string | ResponseType; time: string; sender: string }[]
   >([]);
   const [userInput, setUserInput] = useState<string>("");
+  const inputRef = React.useRef<HTMLInputElement>(null);
 
   const handleUserInput = () => {
     const userMessage = userInput;
@@ -102,11 +103,12 @@ const Chat = () => {
         </div>
 
         <ChatInput
+          ref={inputRef}
           userInput={userInput}
           setUserInput={setUserInput}
           handleUserInput={handleUserInput}
         />
-        <Snippets setUserInput={setUserInput} />
+        <Snippets inputRef={inputRef} setUserInput={setUserInput} />
       </div>
     </>
   );
